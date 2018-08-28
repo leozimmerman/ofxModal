@@ -161,6 +161,8 @@ class ofxModalWindow {
         string mAlertMessage;
         shared_ptr<ofxModalAlert> mAlert;
         static std::shared_ptr<ofxModalTheme> mTheme;
+    
+    
 
     private:
     
@@ -244,7 +246,9 @@ class ofxModalWindow {
         void onMouseMove(ofMouseEventArgs &e);
         void onWindowResize(ofResizeEventArgs &e);
         void onButtonEvent(ofxDatGuiButtonEvent e);
+    
         void dispatchCallbacks(ofxModalEvent::EventType eType);
+    
     
     /*
         event subscribers
@@ -287,6 +291,8 @@ class ofxModalAlert : public ofxModalWindow {
             setMessage(message);
             ofxModalWindow::show();
         }
+    
+
 
 };
 

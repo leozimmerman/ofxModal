@@ -31,10 +31,10 @@ class ofxModalTheme {
     public:
     
         ofxModalTheme(){
-            buttonX.normal.load("ofxbraitsch/ofxmodal/modal-buttonX.png");
-            buttonX.active.load("ofxbraitsch/ofxmodal/modal-buttonX-hover.png");
-            fonts.title = ofxSmartFont::add("ofxbraitsch/fonts/HelveticaNeueLTStd-Md.otf", 24, "modal-title");
-            fonts.message = ofxSmartFont::add("ofxbraitsch/fonts/Roboto-Regular.ttf", 20, "modal-message");
+            buttonX.normal.load("gui_assets/ofxbraitsch/ofxmodal/modal-buttonX.png");
+            buttonX.active.load("gui_assets/ofxbraitsch/ofxmodal/modal-buttonX-hover.png");
+            fonts.title = ofxSmartFont::add("gui_assets/ofxbraitsch/fonts/HelveticaNeueLTStd-Md.otf", 24, "modal-title");
+            fonts.message = ofxSmartFont::add("gui_assets/ofxbraitsch/fonts/Roboto-Regular.ttf", 20, "modal-message");
         }
     
     /*
