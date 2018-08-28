@@ -1,6 +1,0 @@
-[submodule "modules/ofxParagraph"]
-	path = modules/ofxParagraph
-	url = git@github.com:braitsch/ofxParagraph.git
-[submodule "modules/ofxDatGui"]
-	path = modules/ofxDatGui
-	url = git@github.com:braitsch/ofxDatGui.git
