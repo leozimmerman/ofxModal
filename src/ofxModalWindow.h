@@ -103,6 +103,10 @@ class ofxModalWindow {
             }
         };
     
+    
+    void clearComponents(){
+        mModalComponents.clear();
+    }
         template<class component>
         component* addComponent(component* c, int x = 0, int y = 0, int w = 0)
         {
