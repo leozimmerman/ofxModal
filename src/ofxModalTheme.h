@@ -116,7 +116,7 @@ class ofxModalTheme {
         } fonts;
 
         struct {
-            float speed = 0.4f;
+            float speed = 0.2f;
         } animation;
     
         struct {
