@@ -166,6 +166,8 @@ class ofxModalWindow {
         shared_ptr<ofxModalAlert> mAlert;
         static std::shared_ptr<ofxModalTheme> mTheme;
     
+    protected:
+        vector<ModalComponent> mModalComponents;
     
 
     private:
@@ -237,7 +239,7 @@ class ofxModalWindow {
         bool mVisible;
         bool mCancelable;
         ofxParagraph* mMessage;
-        vector<ModalComponent> mModalComponents;
+    
         vector<ofxDatGuiButton*> mFooterButtons;
     
         void onDraw(ofEventArgs &e);
